@@ -1,0 +1,81 @@
+An assignment statement creates new variables and gives them values
+
+A statement is a unit of code that the Python interpreter can execute. We have
+seen two kinds of statements: print being an expression statement and assignment.
+
+Operators are special symbols that represent computations
+The values the operator is applied to are called operands.
+
+An expression is a combination of values, variables, and operators.
+A value all by itself is considered an expression, and so is a variable.
+
+concatenation, which means joining the strings by linking them
+end to end.
+
+The * operator also works with strings by multiplying the content of a string by
+an integer
+
+The runtime error you are most likely to make is a “use before def;” that is, trying
+to use a variable before you have assigned a value. This can happen if you spell a
+variable name wrong.
+
+Glossary:
+assignment A statement that assigns a value to a variable.
+
+concatenate To join two operands end to end.
+
+comment Information in a program that is meant for other programmers (or anyone reading the source code) and has no effect on the execution of the program.
+
+evaluate To simplify an expression by performing the operations in order to yield a single value.
+
+expression A combination of variables, operators, and values that represents a single result value.
+
+floating point A type that represents numbers with fractional parts.
+
+integer A type that represents whole numbers.
+
+keyword A reserved word that is used by the compiler to parse a program; you cannot use keywords like if, def, and while as variable names.
+
+mnemonic A memory aid. We often give variables mnemonic names to help us remember what is stored in the variable.
+
+modulus operator An operator, denoted with a percent sign (%), that works on integers and yields the remainder when one number is divided by another.
+
+operand One of the values on which an operator operates.
+
+operator A special symbol that represents a simple computation like addition, multiplication, or string concatenation.
+
+rules of precedence The set of rules governing the order in which expressions involving multiple operators and operands are evaluated.
+
+statement A section of code that represents a command or action. So far, the statements we have seen are assignments and print expression statement.
+
+string A type that represents sequences of characters.
+
+type A category of values. The types we have seen so far are integers (type int), floating-point numbers (type float), and strings (type str).
+
+value One of the basic units of data, like a number or string, that a program manipulates.
+
+variable A name that refers to a value.
+
+End of Glossary!
+
+Objects are pieces of memory with values and sets of associated operations. Every is an object in Python code.
+
+-Programs composed of modules
+-Modules contain statements
+-Statements contain expressions
+-Expressions create and process objects
+
+_name - identifier is private
+__name - identifier is strongly private
+__name__ - language-defined special name
+
+Variables are reserved memory locations to store values. When a variable is create Python reserved space in memory for that variable. Base on type, Python allocates memory and decides what can be store.
+
+Python is dynamically-typed : keeps track of types for you automatically instead of requiring declaration code.
+Strongly-typed: only perform operations on a variable that are valid for its type.
+
+Arrays - items belonging must be same data type.
+Lists - items belonging can be different data types. Elements and size can be changed(mutable).
+Tuples - Elements and size can not be changed(immutable). Read-only lists.
+Set - Elements are unique and unordered.
+

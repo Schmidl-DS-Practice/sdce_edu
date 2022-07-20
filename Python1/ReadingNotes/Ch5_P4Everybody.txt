@@ -1,0 +1,35 @@
+Updating a variable by adding 1 is called an increment; subtracting 1 is called a decrement.
+
+More formally, here is the flow of execution for a while statement:
+1. Evaluate the condition, yielding True or False.
+2. If the condition is false, exit the while statement and continue execution at
+the next statement.
+3. If the condition is true, execute the body and then go back to step 1.
+
+Translating this for loop to English is not as direct as the while, but if you think
+of friends as a set, it goes like this: “Run the statements in the body of the for
+loop once for each friend in the set named friends.”
+
+These loops are generally constructed by:
+• Initializing one or more variables before the loop starts
+• Performing some computation on each item in the loop body, possibly chang-
+ing the variables in the body of the loop
+• Looking at the resulting variables when the loop completes
+
+Glossary:
+accumulator A variable used in a loop to add up or accumulate a result.
+
+counter A variable used in a loop to count the number of times something happened. We initialize a counter to zero and then increment the counter each time we want to “count” something.
+
+decrement An update that decreases the value of a variable.
+
+initialize An assignment that gives an initial value to a variable that will be updated.
+
+increment An update that increases the value of a variable (often by one).
+
+infinite loop A loop in which the terminating condition is never satisfied or for which there is no terminating condition.
+
+iteration Repeated execution of a set of statements using either a function that
+calls itself or a loop.
+
+

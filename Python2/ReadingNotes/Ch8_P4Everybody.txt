@@ -1,0 +1,42 @@
+LISTS:
+- a list is a sequence of values. they can be any type.
+- The values in list are called elements or sometimes items.
+- A list within another list is nested
+- A list that contains no elements is called an empty list; you can create one with empty brackets, [].
+- Unlike strings, lists are mutable because you can change the order of items in a list or reassign an item in a list. When the bracket operator appears on the left side of an assignment, it identifies the element of the list that will be assigned.
+- You can think of a list as a relationship between indices and elements. This relationship is called a mapping; each index “maps to” one of the elements.
+- Since lists are mutable, it is often useful to make a copy before performing operations that fold, spindle, or mutilate lists.
+- append adds a new element to the end of a list.
+- extend takes a list as an argument and appends all of the elements
+- sort arranges the elements of the list from low to high.
+- Most list methods are void; they modify the list and return None. If you accidentally write t = t.sort(), you will be disappointed with the result.
+-There are several ways to delete elements from a list. If you know the index of the element you want, you can use pop. pop modifies the list and returns the element that was removed. If you don’t provide an index, it deletes and returns the last element.
+- If you don’t need the removed value, you can use the del operator.
+- If you know the element you want to remove (but not the index), you can use remove.
+- The return value from remove is None.
+- To remove more than one element, you can use del with a slice index.
+- The sum() function only works when the list elements are numbers. The other functions (max(), len(), etc.) work with lists of strings and other types that can be comparable.
+- To convert from a string to a list of characters, you can use list()
+- Python only created one string object, and both a and b refer to it, but when you create two lists, you get two objects.
+- In this case we would say that the two lists are equivalent, because they have the same elements, but not identical, because they are not the same object. If two objects are identical, they are also equivalent, but if they are equivalent, they are not necessarily identical.
+- The association of a variable with an object is called a reference.
+- An object with more than one reference has more than one name, so we say that the object is aliased.
+- If the aliased object is mutable, changes made with one alias affect the other.
+- When you pass a list to a function, the function gets a reference to the list.
+- It is important to distinguish between operations that modify lists and operations that create new lists. For example, the append method modifies a list, but the + operator creates a new list.
+- Don’t forget that most list methods modify the argument and return None. This is the opposite of the string methods, which return a new string and leave the original alone.
+- In this example you could also use the built-in function sorted, which returns a new, sorted list and leaves the original alone. But in that case you should avoid using sorted as a variable name!
+
+GLOSSARY:
+aliasing - A circumstance where two or more variables refer to the same object.
+delimiter - A character or string used to indicate where a string should be split.
+element - One of the values in a list (or other sequence); also called items.
+equivalent - Having the same value.
+index - An integer value that indicates an element in a list.
+identical - Being the same object (which implies equivalence).
+list - A sequence of values.
+list traversal - The sequential accessing of each element in a list.
+nested list - A list that is an element of another list.
+object - Something a variable can refer to. An object has a type and a value.
+reference - The association between a variable and its value.
+

@@ -1,0 +1,24 @@
+Scott Schmidl - COMP 660 - Programming with Python I - 02/01/2021 to 04/10/2021 - Section 1.5 Module 1 Assignment
+
+1. What is a program?
+	A program is a set of instructions that is passed to the Python Interpreter to be converted to machine code so 		that the machine can complete said instructions.
+
+2. What is the difference between an interpreter and a compiler?
+	An interpreter reads the source code line-by-line, parses the code, and interprets the instructions for use by 			the machine.
+	A compiler needs the entire program in a file and then translates that into machine language. The compiler 			than puts the resulting machine language into a file to be used later.
+	
+3. What is wrong with the following code?
+	pribt()'Hello world!")
+	There are a couple things wrong with the above code:
+														1. pribt is a misspelling. It should be print
+														2. the first ) should be deleted or the last ) deleted and 																'Hello world!" placed inside the ().
+														3. use of a ' and ", to enclose "Hello world!" is invalid. 																It should be either "Hello world!" or 'Hello world!'
+	The resulting corrections would give the correct answer as:
+														print('Hello world!')
+																or
+														print("Hello world!")
+														
+4. What will the following program print out below the figure?
+	print(y) will display the float 3.25.
+	Line 2 is also in the form of y = mx+b, hence the negative sloping linear line in the graph.
+

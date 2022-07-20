@@ -1,0 +1,8 @@
+Glossary
+• Probability mass function (PMF): a representation of a distribu-
+tion as a function that maps from values to probabilities.
+• probability: A frequency expressed as a fraction of the sample size.
+• normalization: The process of dividing a frequency by a sample size
+to get a probability.
+• index: In a pandas DataFrame, the index is a special column that
+contains the row labe

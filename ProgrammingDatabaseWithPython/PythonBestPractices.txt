@@ -1,0 +1,19 @@
+FILENAME - For the class, files should be saved with your name in the filename. I get a large number of assignments to grade and want to make sure that I am grading the correct student's assignment.
+
+SHEBANG - Start each program with a shebang statement (e.g.  #!/usr/bin/env python3 ). This should be on the very first line and when run standalone, tells the computer what program will be executing this file.
+
+COMMENT HEADER - Next should be a comment header that describes the program as well as the author's name.  Many companies have standards to use for the comment header, but every program file should include a comment header.
+
+IMPORTS - After the comment header, list all of the imports used in the program. They should all be included here (not embedded within the program) so that it is clear what dependencies are required so the developer can make sure that all are available prior to running.
+
+USER FUNCTIONS - Any functions used by the program should be declared next. Some put them in order of use or alphabetical order. Any way is acceptable as long as the order is defensible.
+
+	GENERAL COMMENTS - All programs should have meaningful comments throughout the code. They help both the user and co-workers understand and 		maintain the code, long after it was developed. Programs should not be completed unless the code has been properly commented.
+	
+	VARIABLE NAMES - Variable names should be meaningful and help the user understand the program. Avoid variables such as x, t unless their 		meaning is well understood in the program.
+
+MAIN FUNCTION - By convention, the last function should be the main().  This is a high level function that shows the general UI and high function calls used within the program.  Properly written, the main should help the user understand what the program will do.
+
+INEMB - At the bottom of the file should be an IF statement that calls the main. If used as an import, the main is not called, however if run as a program, the main will be executed:
+	if __name__ == "__main__":
+		main()

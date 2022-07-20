@@ -1,0 +1,20 @@
+Glossary
+• percentile rank: The percentage of values in a distribution that are
+less than or equal to a given value.
+• percentile: The value associated with a given percentile rank.
+• cumulative distribution function (CDF): A function that maps
+from values to their cumulative probabilities. CDF(x) is the fraction
+of the sample less than or equal to x.
+• inverse CDF: A function that maps from a cumulative probability, p,
+to the corresponding value.
+• median: The 50th percentile, often used as a measure of central ten-
+dency.
+• interquartile range: The difference between the 75th and 25th per-
+centiles, used as a measure of spread.
+• quantile: A sequence of values that correspond to equally spaced per-
+centile ranks; for example, the quartiles of a distribution are the 25th,
+50th and 75th percentiles.
+• replacement: A property of a sampling process. “With replacement”
+means that the same value can be chosen more than once; “without
+replacement” means that once a value is chosen, it is removed from the
+population.

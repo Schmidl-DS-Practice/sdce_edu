@@ -1,0 +1,35 @@
+Glossary
+• regression: One of several related processes for estimating parameters
+that fit a model to data.
+• dependent variables: The variables in a regression model we would
+like to predict. Also known as endogenous variables.
+• explanatory variables: The variables used to predict or explain the
+dependent variables. Also known as independent, or exogenous, vari-
+ables.
+• simple regression: A regression with only one dependent and one
+explanatory variable.
+• multiple regression: A regression with multiple explanatory vari-
+ables, but only one dependent variable.
+• linear regression: A regression based on a linear model
+• ordinary least squares: A linear regression that estimates parame-
+ters by minimizing the squared error of the residuals.
+• spurious relationship: A relationship between two variables that is
+caused by a statistical artifact or a factor, not included in the model,
+that is related to both variables.
+• control variable: A variable included in a regression to eliminate or
+“control for” a spurious relationship.
+• proxy variable: A variable that contributes information to a regres-
+sion model indirectly because of a relationship with another factor, so
+it acts as a proxy for that factor.
+• categorical variable: A variable that can have one of a discrete set
+of unordered values.
+• join: An operation that combines data from two DataFrames using a
+key to match up rows in the two frames.
+• data mining: An approach to finding relationships between variables
+by testing a large number of models.
+• logistic regression: A form of regression used when the dependent
+variable is boolean.
+• Poisson regression: A form of regression used when the dependent
+variable is a non-negative integer, usually a count.
+• odds: An alternative way of representing a probability, p, as the ratio
+of the probability and its complement, p/(1 − p)
